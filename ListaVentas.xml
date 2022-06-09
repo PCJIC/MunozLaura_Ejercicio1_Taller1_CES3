@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!DOCTYPE ListaVentas SYSTEM "ListaVentas.dtd">
+<!--<!DOCTYPE ListaVentas SYSTEM "ListaVentas.dtd">-->
 
-<ListaVentas>
+<ListaVentas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="ListaVentas.xsd">
     <Venta>
         <Importe>20.000</Importe>
         <Comprador>Juan</Comprador>
